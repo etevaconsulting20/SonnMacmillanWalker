@@ -1,0 +1,26 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Forms.Web
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+    Layout = null;
+    var currentPage = UmbracoContext.PublishedRequest.PublishedContent;
+    var documentTypeAlias = currentPage.ContentType.Alias;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@currentPage.Name</title>
+</head>
+<body>
+    @Html.RenderUmbracoFormDependencies()
+
+    @RenderBody()
+
+</body>
+</html>
+
+
