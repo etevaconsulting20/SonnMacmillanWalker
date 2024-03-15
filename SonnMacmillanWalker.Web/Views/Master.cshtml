@@ -6,21 +6,54 @@
     var currentPage = UmbracoContext.PublishedRequest.PublishedContent;
     var documentTypeAlias = currentPage.ContentType.Alias;
 }
-
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>@currentPage.Name</title>
+    <link rel="icon" type="image/x-icon" href="~/images/favicon.png">
+    <link type="text/css" href="~/vendors/owlcarousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link type="text/css" href="~/vendors/owlcarousel/dist/assets/owl.theme.default.css" rel="stylesheet">
+    <link type="text/css" href="~/css/style.min.css" rel="stylesheet">
 </head>
+
 <body>
-    @Html.RenderUmbracoFormDependencies()
+    <div class="wrapper">
+        @await Html.PartialAsync("Navigation/_Navigation")
+        <main class="homepage">
 
-    @RenderBody()
+            @Html.RenderUmbracoFormDependencies()
 
+            @RenderBody()
+        </main> <!-- main -->
+        @await Html.PartialAsync("Footer/_Footer")
+    </div> <!-- Wrapper -->
+
+    <div class="popup smart-animation" id="popup">
+        <div class="container smw-container">
+            <div class="row">
+                <div class="col-sm-12 align-self-end">
+                    <p class="mb-4 d-flex gap-8 align-items-center justify-content-center justify-content-md-end popup__close">
+                        <span class="text-white">Close </span><span class="smw-icon-close"></span>
+                    </p>
+                </div>
+                <div class="col-sm-12">
+                    <div class="smw-searchbar">
+                        <div class="d-md-flex">
+                            <input type="text" class="smw-searchbar-field form-control" placeholder="Enter Search"
+                                   aria-label="Enter Search">
+                            <button class="button__blue justify-content-center d-flex gap-8 align-items-center">
+                                <span>Search</span><span class="smw-icon-right-arrow"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Search Popup -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="~/vendors/bootstrap-5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="~/vendors/owlcarousel/dist/owl.carousel.min.js"></script>
+    <script src="~/scripts/script.min.js"></script>
 </body>
-</html>
-
-
+</html>    

@@ -1,0 +1,38 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>;
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models;
+
+
+
+@{
+    var content = (ContentModels.TestimonialsBlockElement)Model.Content;
+}
+
+<div class="testimonialSection secondary-curve-top secondary-curve-bottom" id="testimonialSection">
+    <div class="container smw-container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="owl-carousel owl-theme" id="testimonialSlider">
+                    <article class="article text-center">
+                        <p class="d-block d-lg-none article__caption smw-mb-24">Legal 500 Rankings 2023</p>
+                        <p class="article__content smw-mb-24">
+                            "SMW are an exceptional team who offer a diverse,
+                            collaborative and extremely high quality skill set across the range of legal
+                            professionals and support staff."
+                        </p>
+                        <p class="article__caption smw-mb-24">Legal 500 Rankings 2023</p>
+                    </article>
+                    <article class="article text-center">
+                        <p class="d-block d-lg-none article__caption smw-mb-24">Legal 500 Rankings 2023</p>
+                        <p class="article__content smw-mb-24">
+                            "SMW are an exceptional team who offer a diverse,
+                            collaborative and extremely high quality skill set across the range of legal
+                            professionals and support staff."
+                        </p>
+                        <p class="article__caption smw-mb-24">Legal 500 Rankings 2023</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- Testimonial -->

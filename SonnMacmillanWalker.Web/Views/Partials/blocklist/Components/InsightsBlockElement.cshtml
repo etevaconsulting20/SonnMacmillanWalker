@@ -1,0 +1,115 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>;
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models;
+
+
+
+@{
+    var content = (ContentModels.InsightsBlockElement)Model.Content;
+}
+
+
+<div class="insightSection">
+    <div class="container-fluid container-lg smw-container">
+        <div class="row">
+            <div class="col-sm-12">
+                <article class="article">
+                    <h1 class="smw-mb-16"> @content.Value("insightsBlockElementTitle", fallback: Fallback.ToAncestors)</h1>
+                    <p>
+                        @content.Value("insightsBlockElementDescription", fallback: Fallback.ToAncestors)</p>
+                </article>
+            </div>
+            <div class="col-sm-12">
+                <div class="owl-carousel owl-theme" id="insightSlider">
+                    <article class="insightCard">
+                        <div class="insightCard__head">
+                            <img src="./images/insight-card-image.png" alt="image"
+                                 class="insightCard__img img-fluid">
+                        </div>
+                        <div class="insightCard__body">
+                            <a href="insights-article.html" class="insight__link">
+                                <h2 class="insightCard__body-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque?</h2>
+                                <p class="link__insight smart-animation">
+                                    <span class="smw-btn-text">
+                                        Go to this
+                                        insight
+                                    </span><span class="smw-icon-right-arrow"></span>
+                                </p>
+                            </a>
+                            <div>
+                                  <p class="p__xsmall smw-mb-8">Read more insights about</p>
+                                <p class="d-flex gap-8">
+                                    <button class="button__insight smart-animation">
+                                        <span class="smw-btn-text">Expertise</span>
+                                    </button>
+                                    <button class="button__insight smart-animation">
+                                        <span class="smw-btn-text">Expertise</span>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="insightCard">
+                        <div class="insightCard__head">
+                            <img src="./images/insight-card-image.png" alt="image"
+                                 class="insightCard__img img-fluid">
+                        </div>
+                        <div class="insightCard__body">
+                            <a href="insights-article.html" class="insight__link">
+                                <h2 class="insightCard__body-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque?</h2>
+                                <p class="link__insight smart-animation">
+                                    <span class="smw-btn-text">
+                                        Go to this
+                                        insight
+                                    </span><span class="smw-icon-right-arrow"></span>
+                                </p>
+                            </a>
+                            <div>
+                                <p class="p__xsmall smw-mb-8">Read more insights about</p>
+                                <p class="d-flex gap-8">
+                                    <button class="button__insight smart-animation">
+                                        <span class="smw-btn-text">Expertise</span>
+                                    </button>
+                                    <button class="button__insight smart-animation">
+                                        <span class="smw-btn-text">Expertise</span>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="insightCard">
+                        <div class="insightCard__head">
+                            <img src="./images/insight-card-image.png" alt="image"
+                                 class="insightCard__img img-fluid">
+                        </div>
+                        <div class="insightCard__body">
+                            <a href="insights-article.html" class="insight__link">
+                                <h2 class="insightCard__body-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque?</h2>
+                                <p class="link__insight smart-animation">
+                                    <span class="smw-btn-text">
+                                        Go to this
+                                        insight
+                                    </span><span class="smw-icon-right-arrow"></span>
+                                </p>
+                            </a>
+                            <div>
+                                <p class="p__xsmall smw-mb-8">Read more insights about</p>
+                                <p class="d-flex gap-8">
+                                    <button class="button__insight smart-animation">
+                                        <span class="smw-btn-text">Expertise</span>
+                                    </button>
+                                    <button class="button__insight smart-animation">
+                                        <span class="smw-btn-text">Expertise</span>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+           <div class="col-sm-12">
+                            <a href="insights.html" class="button__blue smart-animation text-decoration-none">View all of our insights </a>
+                        </div>
+        </div>
+    </div>
+</div> <!-- insightSection -->
