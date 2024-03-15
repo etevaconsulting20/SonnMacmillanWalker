@@ -1,0 +1,449 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+
+
+<div class="masthead substract-bottom-white-curve" style="background-image: url('./images/demo.jpg');">
+    <div class="mainNavContainer">
+        <header class="m-header with-transperent d-flex d-lg-none">
+            <div class="d-flex justify-content-between align-self-stretch">
+                <a href="/">
+                    <img src="./images/smw-logo.svg" alt="SMW Logo" width="118" height="95">
+                </a>
+                <ul class="d-flex d-lg-none align-items-center gap-16 list-group list-group-horizontal">
+                    <li class="m-search">
+                        <a href="javascript:;" class="text-decoration-none">
+                            <span class="smw-icon-search"></span>
+                        </a>
+                    </li>
+                    <li class="m-burger" id="m-burger">
+                        <a href="javascript:;" class="text-decoration-none">
+                            <span class="smw-icon-burger"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <header class="header with-transperent smw-py-32 smart-animation">
+            <div class="header__left d-flex justify-content-between align-self-stretch">
+                <a href="/" class="header__logo">
+                    <img src="./images/smw-logo.svg" alt="SMW Logo" width="118" height="95">
+                </a>
+                <ul class="d-flex d-lg-none align-items-center gap-16 list-group list-group-horizontal">
+                    <li class="m-search">
+                        <a href="javascript:;" class="text-decoration-none">
+                            <span class="smw-icon-search"></span>
+                        </a>
+                    </li>
+                    <li class="m-close">
+                        <a href="javascript:;" class="text-decoration-none d-block d-lg-none" id="close-mainNav">
+                            <span class="smw-icon-sub-close"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__right">
+                <div class="smwDetails">
+                    <div class="smwContactDetails">
+                        <p class="p__small text-white fw-bold">24/7 Arrest Support</p>
+                        <p class="d-flex gap-8 align-items-center">
+                            <span class="smw-icon-phone"></span><span class="text-white">020 7481 9157</span>
+                        </p>
+                        <p class="d-flex gap-8 align-items-center">
+                            <span class="smw-icon-email"></span><a class="smw-link smart-animation"
+                                                                   href="mailto:enquiries@criminalsolicitor.co.uk">enquiries@criminalsolicitor.co.uk</a>
+                        </p>
+                    </div>
+                    <p class="button__translate d-flex align-items-center">
+                        <span class="smw-icon-translate"></span><span class="button__translate-txt">Translate</span><span class="smw-icon-right-arrow smart-animation"></span>
+                    </p>
+                </div>
+                <nav class="mainNav">
+                    <ul class="list-group list-group-horizontal-lg">
+                        <li class="mainNav__item">
+                            <a href="javascript:;" class="mainNav__item-link">
+                                <span class="p__small">
+                                    About
+                                    Us
+                                </span><span class="smart-animation smw-icon-right-angle"></span>
+                            </a>
+                        </li>
+                        <li class="mainNav__item">
+                            <a href="javascript:;" class="mainNav__item-link">
+                                <span class="p__small">Expertise</span><span class="smart-animation smw-icon-right-angle"></span>
+                            </a>
+                        </li>
+                        <li class="mainNav__item">
+                            <a href="our-people.html" class="mainNav__item-link">
+                                <span class="p__small">Our People</span>
+                            </a>
+                        </li>
+                        <li class="mainNav__item">
+                            <a href="notable-cases.html" class="mainNav__item-link">
+                                <span class="p__small">Notable Cases</span>
+                            </a>
+                        </li>
+                        <li class="mainNav__item">
+                            <a href="insights.html" class="mainNav__item-link">
+                                <span class="p__small">Insights</span>
+                            </a>
+                        </li>
+                        <li class="mainNav__item">
+                            <a href="contact-us.html" class="mainNav__item-link">
+                                <span class="p__small">Contact</span>
+                            </a>
+                        </li>
+                        <li class="mainNav__item d-none d-lg-block">
+                            <a href="javascript:;"
+                               class="mainNav__item-link"><span class="smw-icon-search"></span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="container-fluid container-xl smw-container">
+        <div class="row">
+            <div class="col-sm-12">
+                <section class="headerWrapper smart-animation" id="about-us">
+                    <div class="header__top">
+                        <div class="container-fluid container-xl">
+                            <div class="row">
+                                <div class="col-sm-12 d-block d-lg-none">
+                                    <div class="header__sub-header d-flex justify-content-between align-self-stretch">
+                                        <a href="index.html">
+                                            <img src="./images/smw-logo.svg" alt="SMW Logo">
+                                        </a>
+                                        <ul class="d-flex align-items-center gap-16 list-group list-group-horizontal">
+                                            <li class="m-search">
+                                                <a href="javascript:;" class="text-decoration-none">
+                                                    <span class="smw-icon-search"></span>
+                                                </a>
+                                            </li>
+                                            <li class="m-close">
+                                                <a href="javascript:;" class="text-decoration-none close-subNav">
+                                                    <span class=" smw-icon-sub-close"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 d-block d-lg-none">
+                                    <a href="javascript:;"
+                                       class="submenu-back smw-pb-16 d-flex gap-8 align-self-end text-decoration-none align-items-center justify-content-end">
+                                        <span class="smw-icon-button-left"></span><span class="p__small text-white">Back</span>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12">
+                                    <ul class="mainNav__subMenu mw-396 mx-auto text-lg-center">
+                                        <li class="mainNav__subMenu-item">
+                                            <a href="about-us.html"
+                                               class="mainNav__subMenu-link">
+                                                <span class="p__small">
+                                                    About
+                                                    SMW
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="mainNav__subMenu-item">
+                                            <a href="careers.html"
+                                               class="mainNav__subMenu-link">
+                                                <span class="p__small">Careers</span>
+                                            </a>
+                                        </li>
+                                        <li class="mainNav__subMenu-item">
+                                            <a href="pricing-and-funding.html"
+                                               class="mainNav__subMenu-link">
+                                                <span class="p__small">
+                                                    Pricing and
+                                                    Funding
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 d-none d-lg-flex align-items-center justify-content-between">
+                                    <div class="header__bottom-left d-flex flex-column gap-8">
+                                        <h2 class="text-white">24/7 Arrest Support</h2>
+                                        <p class="p__small text-white">
+                                            If you, or someone you know, have been
+                                            arrested, give us a call straight away. Although based in London, we’ll
+                                            get to you wherever you are.
+                                        </p>
+                                    </div>
+                                    <div class="header__bottom-right">
+                                        <h2 class="text-white">020 7481 9157</h2>
+                                    </div>
+                                </div>
+                                <div class="d-block d-lg-none col-sm-12">
+                                    <div class="smwDetails">
+                                        <div class="smwContactDetails">
+                                            <p class="p__small text-white fw-bold">24/7 Arrest Support</p>
+                                            <p class="d-flex gap-8 align-items-center">
+                                                <span class="smw-icon-phone"></span><span class="text-white">
+                                                    020 7481
+                                                    9157
+                                                </span>
+                                            </p>
+                                            <p class="d-flex gap-8 align-items-center">
+                                                <span class="smw-icon-email"></span><a class="smw-link smart-animation"
+                                                                                       href="mailto:enquiries@criminalsolicitor.co.uk">enquiries@criminalsolicitor.co.uk</a>
+                                            </p>
+                                        </div>
+                                        <p class="button__translate d-flex align-items-center">
+                                            <span class="smw-icon-translate"></span><span class="button__translate-txt">Translate</span><span class="smw-icon-right-arrow smart-animation"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="headerWrapper smart-animation" id="expertise">
+                    <div class="header__top">
+                        <div class="container-fluid container-xl">
+                            <div class="row">
+                                <div class="col-sm-12 d-block d-lg-none">
+                                    <div class="header__sub-header d-flex justify-content-between align-self-stretch">
+                                        <a href="javascript:;">
+                                            <img src="./images/smw-logo.svg" alt="SMW Logo">
+                                        </a>
+                                        <ul class="d-flex align-items-center gap-16 list-group list-group-horizontal">
+                                            <li class="m-search">
+                                                <a href="javascript:;" class="text-decoration-none">
+                                                    <span class="smw-icon-search"></span>
+                                                </a>
+                                            </li>
+                                            <li class="m-close">
+                                                <a href="javascript:;" class="text-decoration-none close-subNav">
+                                                    <span class=" smw-icon-sub-close"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 d-block d-lg-none">
+                                    <a href="javascript:;"
+                                       class="submenu-back smw-pb-16 d-flex d-lg-none gap-8 align-self-end text-decoration-none align-items-center justify-content-end">
+                                        <span class="smw-icon-button-left"></span><span class="p__small text-white">Back</span>
+                                    </a>
+                                </div>
+                                <div class="m-height">
+                                    <div class="row">
+                                        <div class="col-md-12 col-lg-4">
+                                            <ul class="mainNav__subMenu mw-386-6">
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">Assault</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">
+                                                            benefit
+                                                            fraud
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">
+                                                            bribery
+                                                            and corruption
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">
+                                                            cash
+                                                            seizure
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">confiscation proceedings</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">
+                                                            driving
+                                                            offences
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-12 col-lg-4">
+                                            <ul class="mainNav__subMenu mw-386-6">
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">
+                                                            drugs
+                                                            offence
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">extradition</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">football banning orders</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">
+                                                            fraud
+                                                            and theft
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">
+                                                            money
+                                                            laundering
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">
+                                                            murder
+                                                            and manslaughter
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-12 col-lg-4">
+                                            <ul class="mainNav__subMenu mw-386-6">
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">
+                                                            public
+                                                            order and protest offences
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">
+                                                            serious
+                                                            crime
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">
+                                                            sexual
+                                                            offences
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="mainNav__subMenu-item">
+                                                    <a href="expertise.html"
+                                                       class="mainNav__subMenu-link">
+                                                        <span class="p__small">terrorism offences</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 d-none d-lg-flex align-items-center justify-content-between">
+                                    <div class="header__bottom-left d-flex flex-column gap-8">
+                                        <h2 class="text-white">24/7 Arrest Support</h2>
+                                        <p class="p__small text-white">
+                                            If you, or someone you know, have been
+                                            arrested, give us a call straight away. Although based in London, we’ll
+                                            get to you wherever you are.
+                                        </p>
+                                    </div>
+                                    <div class="header__bottom-right">
+                                        <h2 class="text-white">020 7481 9157</h2>
+                                    </div>
+                                </div>
+                                <div class="d-block d-lg-none col-sm-12">
+                                    <div class="smwDetails">
+                                        <div class="smwContactDetails">
+                                            <p class="p__small text-white fw-bold">24/7 Arrest Support</p>
+                                            <p class="d-flex gap-8 align-items-center">
+                                                <span class="smw-icon-phone"></span><span class="text-white">
+                                                    020 7481
+                                                    9157
+                                                </span>
+                                            </p>
+                                            <p class="d-flex gap-8 align-items-center">
+                                                <span class="smw-icon-email"></span><a class="smw-link smart-animation"
+                                                                                       href="mailto:enquiries@criminalsolicitor.co.uk">enquiries@criminalsolicitor.co.uk</a>
+                                            </p>
+                                        </div>
+                                        <p class="button__translate d-flex align-items-center">
+                                            <span class="smw-icon-translate"></span><span class="button__translate-txt">Translate</span><span class="smw-icon-right-arrow smart-animation"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-sm-12 col-md-10 col-lg-10 mx-auto">
+                <div class="masthead__articleWrapper">
+                    <article class="masthead__article">
+                        <h1 class="masthead__article-title smw-mb-24">
+                           @Model.Value("heroMastheadHeading", fallback: Fallback.ToAncestors)
+                        </h1>
+                        <p class="masthead__article-content">
+                           @Model.Value("heroMastheadDescription", fallback: Fallback.ToAncestors)
+                        </p>
+                        <p class="masthead__article-cap">Find someone who can help me</p>
+                    </article>
+                    <div class="d-md-flex justify-content-between w-100 align-items-center">
+                        <a href="our-people.html"
+                           class="button__blue d-flex gap-8 justify-content-center align-items-center smart-animation text-decoration-none">
+                            <span>View our people</span><span class="smw-icon-right-arrow"></span>
+                        </a>
+                        <div class="d-inline-block page-scroll-down"
+                             onclick="scrollToSection('testimonialSection')">
+                            <img src="./images/down-arrow.svg" alt="Go Down">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- masthead -->

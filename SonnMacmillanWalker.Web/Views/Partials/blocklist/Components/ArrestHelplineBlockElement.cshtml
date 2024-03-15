@@ -1,0 +1,29 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>;
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models;
+
+
+
+@{
+	var content = (ContentModels.ArrestHelplineBlockElement)Model.Content;
+ }
+
+
+
+<div class="arrestsection">
+    <div class="container-fluid container-lg smw-container">
+        <div class="row">
+            <div class="col-sm-12">
+                <article class="arrestHelpline text-center">
+                    <h1 class="arrestHelpline__title">@content.Value("arrestHelplineTitle", fallback: Fallback.ToAncestors)</h1>
+                    <p class="arrestHelpline__content">
+                        @content.Value("arrestHelplineDescription", fallback: Fallback.ToAncestors)
+                    </p>
+                    <p class="d-flex gap-8 align-items-center justify-content-center">
+                        <span class="smw-icon-phone"></span><span class="smw-phone">@content.Value("arrestHelplineNumber", fallback: Fallback.ToAncestors)</span>
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+</div> <!-- Areest Section -->

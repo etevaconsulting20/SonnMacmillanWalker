@@ -32,10 +32,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\SonnMacmillanWalker.Core\SonnMacmillanWalker.Core.csproj" />
   </ItemGroup>
 

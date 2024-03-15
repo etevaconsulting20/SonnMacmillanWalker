@@ -48,5 +48,29 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		}
 
 		// properties
+
+		///<summary>
+		/// Hero/Masthead Description
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.8.3+e04a41b")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("heroMastheadDescription")]
+		public virtual string HeroMastheadDescription => this.Value<string>(_publishedValueFallback, "heroMastheadDescription");
+
+		///<summary>
+		/// Hero/Masthead Heading
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.8.3+e04a41b")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("heroMastheadHeading")]
+		public virtual string HeroMastheadHeading => this.Value<string>(_publishedValueFallback, "heroMastheadHeading");
+
+		///<summary>
+		/// Home Section List
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.8.3+e04a41b")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("homeSectionList")]
+		public virtual global::Umbraco.Cms.Core.Models.Blocks.BlockListModel HomeSectionList => this.Value<global::Umbraco.Cms.Core.Models.Blocks.BlockListModel>(_publishedValueFallback, "homeSectionList");
 	}
 }

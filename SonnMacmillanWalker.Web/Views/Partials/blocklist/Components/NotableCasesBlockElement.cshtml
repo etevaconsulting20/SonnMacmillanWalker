@@ -1,0 +1,203 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>;
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models;
+
+
+
+@{
+    var content = (ContentModels.NotableCasesBlockElement)Model.Content;
+}
+
+<div class="notableCasesSection primary-curve-bottom">
+    <div class="container-fluid container-lg smw-container">
+        <div class="row justify-content-between row-gap">
+            <div class="col-sm-12">
+                <article class="article d-flex flex-column flex-md-row justify-content-between">
+                    <h1 class="article__title text-white">@content.Value("notableCasesTitle", fallback: Fallback.ToAncestors)</h1>
+                    <p class="text-white d-md-none">
+                        Lorem ipsum dolor sit amet consectetur. Amet suspendisse
+                        pellentesque ultricies sem vitae vehicula. Nulla pulvinar morbi nisl dictumst a. Sit felis
+                        magna consequat purus ut lacus purus.
+                    </p>
+                    <div class="smwFilter">
+                        <div class="dropdownContainer">
+                            <div class="dropdownWrapper">
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle smwdropdown d-flex align-items-center border border-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="smwdropdown__text text-white">Select an area of expertise</span>
+                                        <i class="smw-icon-down-arrow"></i>
+                                    </button>
+                                    <ul class="dropdown-menu smwdropdown__options text-white">
+                                        <li><a class="dropdown-item" href="javascript:;">Show all</a></li>
+                                        <li><a class="dropdown-item" href="javascript:;">Expertise (select to filter)</a></li>
+                                        <li><a class="dropdown-item" href="javascript:;">Expertise (select to filter)</a></li>
+                                        <li><a class="dropdown-item" href="javascript:;">Expertise (select to filter)</a></li>
+                                        <li><a class="dropdown-item" href="javascript:;">Expertise (select to filter)</a></li>
+                                        <li><a class="dropdown-item" href="javascript:;">Expertise (select to filter)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-12">
+                <div class="owl-carousel owl-theme notableCasesSlider" id="notableCasesSlider-homepage">
+                    <a href="notable-case-article.html" class="caseItem">
+                        <div class="casesCard with-white-text d-flex gap-16 flex-column smart-animation">
+                            <div class="casesCard__imgWrap">
+                                <img src="./images/author-img.png" class="rounded-circle" alt="author name" width="52"
+                                     height="52">
+                            </div>
+                            <p class="d-flex gap-8 align-items-center">
+                                <span class="smw-icon-calendar"></span>
+                                <span class="casesCard__date">Date Posted</span>
+                            </p>
+                            <div>
+                                <h2 class="casesCard__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                    pellentesque?
+                                </h2>
+                                <p class="p__small">
+                                    Ut ultrices tristique bibendum. Phasellus dignissim ultricies diam
+                                    vitae commodo. Sed congue quis sem quis bibendum.
+                                </p>
+                            </div>
+                            <p class="link__insight">
+                                <span class="smw-btn-text">Read More</span><span class="smw-icon-right-arrow"></span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="notable-case-article.html" class="caseItem">
+                        <div class="casesCard with-white-text d-flex gap-16 flex-column smart-animation">
+                            <div class="casesCard__imgWrap">
+                                <img src="./images/author-img.png" class="rounded-circle" alt="author name" width="52"
+                                     height="52">
+                            </div>
+                            <p class="d-flex gap-8 align-items-center">
+                                <span class="smw-icon-calendar"></span>
+                                <span class="casesCard__date">Date Posted</span>
+                            </p>
+                            <div>
+                                <h2 class="casesCard__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                    pellentesque?
+                                </h2>
+                                <p class="p__small">
+                                    Ut ultrices tristique bibendum. Phasellus dignissim ultricies diam
+                                    vitae commodo. Sed congue quis sem quis bibendum.
+                                </p>
+                            </div>
+                            <p class="link__insight">
+                                <span class="smw-btn-text">Read More</span><span class="smw-icon-right-arrow"></span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="notable-case-article.html" class="caseItem">
+                        <div class="casesCard with-white-text d-flex gap-16 flex-column smart-animation">
+                            <div class="casesCard__imgWrap">
+                                <img src="./images/author-img.png" class="rounded-circle" alt="author name" width="52"
+                                     height="52">
+                            </div>
+                            <p class="d-flex gap-8 align-items-center">
+                                <span class="smw-icon-calendar"></span>
+                                <span class="casesCard__date">Date Posted</span>
+                            </p>
+                            <div>
+                                <h2 class="casesCard__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                    pellentesque?
+                                </h2>
+                                <p class="p__small">
+                                    Ut ultrices tristique bibendum. Phasellus dignissim ultricies diam
+                                    vitae commodo. Sed congue quis sem quis bibendum.
+                                </p>
+                            </div>
+                            <p class="link__insight">
+                                <span class="smw-btn-text">Read More</span><span class="smw-icon-right-arrow"></span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="notable-case-article.html" class="caseItem">
+                        <div class="casesCard with-white-text d-flex gap-16 flex-column smart-animation">
+                            <div class="casesCard__imgWrap">
+                                <img src="./images/author-img.png" class="rounded-circle" alt="author name" width="52"
+                                     height="52">
+                            </div>
+                            <p class="d-flex gap-8 align-items-center">
+                                <span class="smw-icon-calendar"></span>
+                                <span class="casesCard__date">Date Posted</span>
+                            </p>
+                            <div>
+                                <h2 class="casesCard__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                    pellentesque?
+                                </h2>
+                                <p class="p__small">
+                                    Ut ultrices tristique bibendum. Phasellus dignissim ultricies diam
+                                    vitae commodo. Sed congue quis sem quis bibendum.
+                                </p>
+                            </div>
+                            <p class="link__insight">
+                                <span class="smw-btn-text">Read More</span><span class="smw-icon-right-arrow"></span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="notable-case-article.html" class="caseItem">
+                        <div class="casesCard with-white-text d-flex gap-16 flex-column smart-animation">
+                            <div class="casesCard__imgWrap">
+                                <img src="./images/author-img.png" class="rounded-circle" alt="author name" width="52"
+                                     height="52">
+                            </div>
+                            <p class="d-flex gap-8 align-items-center">
+                                <span class="smw-icon-calendar"></span>
+                                <span class="casesCard__date">Date Posted</span>
+                            </p>
+                            <div>
+                                <h2 class="casesCard__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                    pellentesque?
+                                </h2>
+                                <p class="p__small">
+                                    Ut ultrices tristique bibendum. Phasellus dignissim ultricies diam
+                                    vitae commodo. Sed congue quis sem quis bibendum.
+                                </p>
+                            </div>
+                            <p class="link__insight">
+                                <span class="smw-btn-text">Read More</span><span class="smw-icon-right-arrow"></span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="notable-case-article.html" class="caseItem">
+                        <div class="casesCard with-white-text d-flex gap-16 flex-column smart-animation">
+                            <div class="casesCard__imgWrap">
+                                <img src="./images/author-img.png" class="rounded-circle" alt="author name" width="52"
+                                     height="52">
+                            </div>
+                            <p class="d-flex gap-8 align-items-center">
+                                <span class="smw-icon-calendar"></span>
+                                <span class="casesCard__date">Date Posted</span>
+                            </p>
+                            <div>
+                                <h2 class="casesCard__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                    pellentesque?
+                                </h2>
+                                <p class="p__small">
+                                    Ut ultrices tristique bibendum. Phasellus dignissim ultricies diam
+                                    vitae commodo. Sed congue quis sem quis bibendum.
+                                </p>
+                            </div>
+                            <p class="link__insight">
+                                <span class="smw-btn-text">Read More</span><span class="smw-icon-right-arrow"></span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 text-center">
+                <a href="notable-cases.html" class="button__blue smart-animation text-decoration-none">@content.Value("viewAllNotableCTATitle", fallback: Fallback.ToAncestors)</a>
+            </div>
+        </div>
+    </div>
+</div> <!-- Notable Cases Section -->
