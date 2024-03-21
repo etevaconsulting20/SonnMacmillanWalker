@@ -1,0 +1,29 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+
+ <div class="container-fluid container-xl smw-container">
+     <div class="row">
+         <div class="col-sm-12 col-md-10 col-lg-10 mx-auto">
+             <div class="masthead__articleWrapper">
+                 <article class="masthead__article">
+                     <h1 class="masthead__article-title smw-mb-24">
+                         @Model.Value("heroMastheadHeading", fallback: Fallback.ToAncestors)
+                     </h1>
+                     <p class="masthead__article-content">
+                         @Model.Value("heroMastheadDescription", fallback: Fallback.ToAncestors)
+                     </p>
+                     <p class="masthead__article-cap">Find someone who can help me</p>
+                 </article>
+                 <div class="d-md-flex justify-content-between w-100 align-items-center">
+                     <a href="our-people.html"
+                        class="button__blue d-flex gap-8 justify-content-center align-items-center smart-animation text-decoration-none">
+                         <span>View our people</span><span class="smw-icon-right-arrow"></span>
+                     </a>
+                     <div class="d-inline-block page-scroll-down"
+                          onclick="scrollToSection('testimonialSection')">
+                         <img src="~/images/down-arrow.svg" alt="Go Down">
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>

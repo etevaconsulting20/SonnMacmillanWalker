@@ -1,0 +1,152 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>;
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models;
+
+
+
+@{
+    var content = (ContentModels.MeetOurTeamBlockElement)Model.Content;
+}
+
+<div class="meetourTeam white-bg-color-2">
+    <div class="container-fluid container-lg smw-container">
+        <div class="row">
+            <div class="col-sm-12">
+                <article class="article d-flex justify-content-between align-items-center">
+                    <header class="article__header">
+                        <h2 class="article__title smw-mb-16">@content.Value("meetOurTeamTitle", fallback: Fallback.ToAncestors)</h2>
+                        <p class="article__content">
+                            @content.Value("meetOurTeamDescription", fallback: Fallback.ToAncestors)
+                        </p>
+                    </header>
+                    <a href="our-people.html"
+                       class="button__blue d-none d-lg-flex gap-8 align-items-center text-decoration-none smart-animation">
+                        <span class="smw-btn-text text-white">View all of our people</span><span class="smw-icon-right-arrow"></span>
+                    </a>
+                </article>
+            </div>
+            <div class="col-sm-12">
+                <div class="meetourTeam__slider owl-carousel owl-theme" id="meetourTeamSlider">
+                    <div class="peopleCard d-flex flex-column gap-16">
+                        <div class="peopleCard__head">
+                            <img src="~/images/people-card-image.png" alt="image"
+                                 class="peopleCard__img img-fluid">
+                        </div>
+                        <div class="peopleCard__body">
+                            <article class="article d-flex gap-8 flex-column">
+                                <h2 class="article__title">Name Name</h2>
+                                <p class="article__content smw-primary-text">Title</p>
+                                <div class="d-flex gap-16">
+                                    <p class="link__people">
+                                        <span class="smw-icon-email"></span><a href=""
+                                                                               class="smw-btn-text smart-animation">Email</a>
+                                    </p>
+                                    <p class="link__people">
+                                        <span class="smw-icon-link smw-icon-linkedln-blue"></span><a href=""
+                                                                                                     class="smw-btn-text smart-animation">LinkedIn</a>
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="peopleCard d-flex flex-column gap-16">
+                        <div class="peopleCard__head">
+                            <img src="~/images/people-card-image.png" alt="image"
+                                 class="peopleCard__img img-fluid">
+                        </div>
+                        <div class="peopleCard__body">
+                            <article class="article d-flex gap-8 flex-column">
+                                <h2 class="article__title">Name Name</h2>
+                                <p class="article__content smw-primary-text">Title</p>
+                                <div class="d-flex gap-16">
+                                    <p class="link__people">
+                                        <span class="smw-icon-email"></span><a href=""
+                                                                               class="smw-btn-text smart-animation">Email</a>
+                                    </p>
+                                    <p class="link__people">
+                                        <span class="smw-icon-link smw-icon-linkedln-blue"></span><a href=""
+                                                                                                     class="smw-btn-text smart-animation">LinkedIn</a>
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="peopleCard d-flex flex-column gap-16">
+                        <div class="peopleCard__head">
+                            <img src="~/images/people-card-image.png" alt="image"
+                                 class="peopleCard__img img-fluid">
+                        </div>
+                        <div class="peopleCard__body">
+                            <article class="article d-flex gap-8 flex-column">
+                                <h2 class="article__title">Name Name</h2>
+                                <p class="article__content smw-primary-text">Title</p>
+                                <div class="d-flex gap-16">
+                                    <p class="link__people">
+                                        <span class="smw-icon-email"></span><a href=""
+                                                                               class="smw-btn-text smart-animation">Email</a>
+                                    </p>
+                                    <p class="link__people">
+                                        <span class="smw-icon-link smw-icon-linkedln-blue"></span><a href=""
+                                                                                                     class="smw-btn-text smart-animation">LinkedIn</a>
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="peopleCard d-flex flex-column gap-16">
+                        <div class="peopleCard__head">
+                            <img src="~/images/people-card-image.png" alt="image"
+                                 class="peopleCard__img img-fluid">
+                        </div>
+                        <div class="peopleCard__body">
+                            <article class="article d-flex gap-8 flex-column">
+                                <h2 class="article__title">Name Name</h2>
+                                <p class="article__content smw-primary-text">Title</p>
+                                <div class="d-flex gap-16">
+                                    <p class="link__people">
+                                        <span class="smw-icon-email"></span><a href=""
+                                                                               class="smw-btn-text smart-animation">Email</a>
+                                    </p>
+                                    <p class="link__people">
+                                        <span class="smw-icon-link smw-icon-linkedln-blue"></span><a href=""
+                                                                                                     class="smw-btn-text smart-animation">LinkedIn</a>
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="peopleCard d-flex flex-column gap-16">
+                        <div class="peopleCard__head">
+                            <img src="~/images/people-card-image.png" alt="image"
+                                 class="peopleCard__img img-fluid">
+                        </div>
+                        <div class="peopleCard__body">
+                            <article class="article d-flex gap-8 flex-column">
+                                <h2 class="article__title">Name Name</h2>
+                                <p class="article__content smw-primary-text">Title</p>
+                                <div class="d-flex gap-16">
+                                    <p class="link__people">
+                                        <span class="smw-icon-email"></span><a href=""
+                                                                               class="smw-btn-text smart-animation">Email</a>
+                                    </p>
+                                    <p class="link__people">
+                                        <span class="smw-icon-link smw-icon-linkedln-blue"></span><a href=""
+                                                                                                     class="smw-btn-text smart-animation">LinkedIn</a>
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 text-center">
+                <button class="button__blue d-inline-flex d-lg-none gap-8 align-items-center smart-animation">
+                    <span>
+                        View
+                        all of our people
+                    </span><span class="smw-icon-right-arrow"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div> <!-- Meet Our Team -->
