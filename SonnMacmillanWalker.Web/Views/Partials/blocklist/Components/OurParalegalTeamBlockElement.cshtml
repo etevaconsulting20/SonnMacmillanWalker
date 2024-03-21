@@ -1,0 +1,35 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>;
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models;
+@{
+    var content = (ContentModels.OurParalegalTeamBlockElement)Model.Content;
+}
+
+
+<div class="cardGridWrapper">
+    <div class="container-fluid container-lg smw-container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="cardGrid">
+                    <div class="blank">&nbsp;</div>
+                    <div class="item-1">
+                        <article class="article">
+                            <h2 class="article__title">
+                                @content.Value("ourParalegalTeamTitle", fallback: Fallback.ToAncestors)
+                            </h2>
+                            <p class="article__content">
+                                @content.Value("ourParalegalTeamDescription", fallback: Fallback.ToAncestors)
+                            </p>
+                            <a href="paralegal-team.html" class="button__blue text-decoration-none smart-animation">Meet our paralegal team</a>
+                        </article>
+                    </div>
+                    <div class="item-2">
+                        <div class="cardGrid__img" style="background-image: url('/images/paralegal-team-card-img.png');">
+                            <img class="card-section__image img-fluid d-block d-md-none w-100" src="~/images/paralegal-team-card-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- cardGrid -->

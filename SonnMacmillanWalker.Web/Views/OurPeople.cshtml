@@ -1,0 +1,57 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.OurPeople>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+    Layout = "Master.cshtml";
+}
+
+
+<main class="ourPeople-page white-bg-color-2">
+    <div class="primary-bg-color-2 breadcrumb-curve">
+        <div class="container-fluid container-lg smw-container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="smw-breadcrumb primary" aria-label="breadcrumb">
+                        <ol class="d-flex gap-8 align-items-center">
+                            <li class="smw-breadcrumb-item">
+                                <a href="index.html" class="smw-breadcrumb-link">
+                                    <span class="smw-icon-home"></span>
+                                </a>
+                            </li>
+                            <li class="smw-breadcrumb-item">
+                                <a href="notable-cases.html" class="smw-breadcrumb-link">
+                                    <span class="smw-icon-dot"></span><span class="smw-breadcrumb-text">
+                                        OUR
+                                        PEOPLE
+                                    </span>
+                                </a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div><!-- Breadcrumb-->
+    <div class="container-fluid container-lg smw-container ">
+        <div class="row">
+            <div class="col-12">
+                <div class="contentSections banner-content">
+                    <article class="article">
+                        <h1 class="article__title">Our team of lawyers are committed to you</h1>
+                        <p class="article__content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor lacinia
+                            lectus,
+                            sit amet ornare urna ultrices sed. Vestibulum ante ipsum primis in faucibus orci
+                            luctus
+                            et ultrices posuere cubilia curae; Vivamus venenatis eleifend sagittis.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div><!-- About -->
+    @Html.GetBlockListHtml(Model.OurPeopleBlockList)   
+</main>
+
+
+

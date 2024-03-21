@@ -1,0 +1,48 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.AboutUs>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+    Layout = "Master.cshtml";
+}
+
+<main class="about-us-page">
+    <div class="banner substract-bottom-white-3-curve" style="background-image: url('/images/Intersect.svg');">
+    </div> <!-- masthead Internal -->
+    <div class="contentSections-bg">
+        <div class="container-fluid container-lg smw-container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="smw-breadcrumb" aria-label="breadcrumb">
+                        <ol class="d-flex gap-8 align-items-center">
+                            <li class="smw-breadcrumb-item">
+                                <a href="index.html" class="smw-breadcrumb-link">
+                                    <span class="smw-icon-home"></span>
+                                </a>
+                            </li>
+                            <li class="smw-breadcrumb-item">
+                                <a href="about-us.html" class="smw-breadcrumb-link">
+                                    <span class="smw-icon-dot"></span><span class="smw-breadcrumb-text">
+                                        @Model.Value("aboutUsTitle", fallback: Fallback.ToAncestors)
+                                    </span>
+                                </a>
+                            </li>
+                        </ol>
+                    </nav>  
+                </div>
+                <div class="col-12">
+                    <div class="contentSections mx-auto banner-content">
+                        <article class="article">
+                            <div class="article__content">
+                                <h1 class="article__title">About us </h1>
+                                <p class="article__content">
+                                    @Model.Value("aboutUsDescription", fallback: Fallback.ToAncestors)
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- About -->
+    @Html.GetBlockListHtml(Model.AboutUsBlockList)
+</main>

@@ -1,0 +1,83 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>;
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models;
+
+
+
+@{
+    var content = (ContentModels.CardSectionBlockElement)Model.Content;
+    bool imageAlignment = (@content.Value("cardSectionImageAlignment", fallback: Fallback.ToAncestors) as bool?) ?? false;
+}
+
+@if (imageAlignment)
+{
+    <div class="card-section">
+        <div class="container-fluid container-lg smw-container">
+            <div class="row align-items-center card-section__gap">
+                <div class="col-12 col-sm-12 col-md-5 ">
+                    <article class="article">
+                        <h2 class="article__title">@content.Value("cardSectionTitle", fallback: Fallback.ToAncestors)</h2>
+                        <p class="article__content mb-lg-0">
+                            @content.Value("cardSectionDescription", fallback: Fallback.ToAncestors)
+                        </p>
+                        <button class="d-block d-lg-none button__blue smart-animation">About Us</button>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 offset-md-1">
+                    <img class="img-fluid smw-img-border-radius" src="~/images/commitement.svg"
+                         alt="commitement">
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="card-section smw-mt-curve-fixes with-bg-curve white-bg-color-2">
+        <div class="container-fluid container-lg smw-container">
+            <div class="row align-items-center card-section__gap flex-column-reverse flex-md-row-reverse">
+                <div class="col-12 col-sm-12 col-md-5  offset-md-1">
+                    <article class="article">
+                        <h2 class="article__title"> @content.Value("cardSectionTitle", fallback: Fallback.ToAncestors)</h2>
+                        <p class="article__content">
+                            @content.Value("cardSectionDescription", fallback: Fallback.ToAncestors)
+                        </p>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6">
+                    <img class="img-fluid smw-img-border-radius" src="~/images/card-section.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div> <!-- Card Section Reverse -->
+}
+
+
+@* 
+
+
+<div class="card-section@(imageAlignment ? "" : "smw-mt-curve-fixes with-bg-curve white-bg-color-2")">
+    <div class="container-fluid container-lg smw-container">
+        <div class="row align-items-center card-section__gap@(imageAlignment ? "" : "flex-column-reverse flex-md-row-reverse")">
+            <div class="col-12 col-sm-12 col-md-5@(imageAlignment ? "" : " offset-md-1")">
+                <article class="article">
+                    <h2 class="article__title">Reputation and commitment</h2>
+                    <p class="article__content mb-lg-0">
+                        Velit purus egestas tellus phasellus. Mattis eget sed
+                        faucibus magna vulputate pellentesque a diam tincidunt. Aenean malesuada tellus
+                        tellus faucibus mauris quisque mauris in.
+                    </p>
+                    @if (imageAlignment)
+                    {
+                     <button> class="d-block d-lg-none button__blue smart-animation">About Us</button>
+                    }
+                </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 @(imageAlignment ? "offset-md-1" : "")">
+                <img class="img-fluid smw-img-border-radius" src="~/images/commitement.svg"
+                     alt="commitement">
+            </div>
+        </div>
+    </div>
+</div>
+ *@

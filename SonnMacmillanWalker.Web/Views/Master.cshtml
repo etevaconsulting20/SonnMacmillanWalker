@@ -19,15 +19,29 @@
 
 <body>
     <div class="wrapper">
-        @await Html.PartialAsync("Navigation/_Navigation")
-        <main class="homepage">
+        @if (documentTypeAlias == "home")
+        {
+            <div class="masthead substract-bottom-white-curve" style="background-image: url('/images/demo.jpg');">
+                @await Html.PartialAsync("Navigation/_NavigationMain")
+                @await Html.PartialAsync("Masthead/_HomeHeroMasthead")
+            </div>
+        }
+        else
+        {
+            <div class="smwHead">
+                @await Html.PartialAsync("Navigation/_NavigationMain")
+            </div>
+        }
 
+        
             @Html.RenderUmbracoFormDependencies()
-
             @RenderBody()
-        </main> <!-- main -->
+     
         @await Html.PartialAsync("Footer/_Footer")
     </div> <!-- Wrapper -->
+
+
+
 
     <div class="popup smart-animation" id="popup">
         <div class="container smw-container">

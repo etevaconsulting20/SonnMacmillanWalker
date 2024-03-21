@@ -1,0 +1,169 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.NotableCases>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+    Layout = "Master.cshtml";
+}
+
+@{
+
+    var NotableCaseCollection = Umbraco.ContentAtRoot()
+         .DescendantsOrSelf<NotableCase>()
+         .Where(x => x.IsVisible())
+         .Take(9);
+}
+
+<main class="notable-cases-page">
+    <div class="primary-bg-color-2">
+        <div class="container-fluid container-lg smw-container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="smw-breadcrumb primary" aria-label="breadcrumb">
+                        <ol class="d-flex gap-8 align-items-center">
+                            <li class="smw-breadcrumb-item">
+                                <a href="index.html" class="smw-breadcrumb-link"><span class="smw-icon-home"></span></a>
+                            </li>
+                            <li class="smw-breadcrumb-item">
+                                <a href="notable-cases.html" class="smw-breadcrumb-link"><span class="smw-icon-dot"></span><span class="smw-breadcrumb-text">NOTABLE CASES</span></a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div><!-- Breadcrumb-->
+    <div class="rectangle primary-curve-bottom">
+        <div class="container-fluid container-lg smw-container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="rectangle__title text-white smw-mb-24">Notable Cases</h1>
+                </div>
+            </div>
+        </div>
+    </div> <!-- rectangle -->
+    <div class="featuredCardWrapper">
+        <div class="container-fluid container-lg smw-container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row g-0 featuredCard cyan smart-animation">
+                        <div class="col-md-6">
+                            <img src="/images/notable-case-image.png" class="img-fluid featuredCard__img" alt="Featured Case">
+                        </div>
+                        <div class="col-md-6">
+                            <article class="featuredCard__content">
+                                <p class="p__xsmall">Featured</p>
+                                <div class="d-flex gap-16 flex-column">
+                                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                    <p>
+                                        Ut ultrices tristique bibendum. Phasellus dignissim ultricies diam vitae commodo. Sed
+                                        congue quis sem quis bibendum.
+                                    </p>
+                                    <a href="javascript:;" class="link__insight smart-animation"><span class="smw-btn-text text-white">Read More</span><span class="smw-icon-right-arrow"></span></a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Notable Case Card - Featured Card -->
+    <div class="smwFilter">
+        <div class="container-fluid container-lg smw-container">
+            <div class="row">
+                <div class="col-sm-12 dropdownContainer">
+                    <div class="dropdownWrapper">
+                        <p class="smw-btn-text smw-mb-8">Filter by expertise</p>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle smwdropdown d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="smwdropdown__text">Show all </span>
+                                <i class="smw-icon-down-arrow"></i>
+                            </button>
+                            <ul class="dropdown-menu smwdropdown__options">
+                                <li><a class="dropdown-item" href="javascript:;">Show all</a></li>
+                                <li><a class="dropdown-item" href="javascript:;">Assault (select to filter)</a></li>
+                                <li><a class="dropdown-item" href="javascript:;">Expertise</a></li>
+                                <li><a class="dropdown-item" href="javascript:;">Expertise</a></li>
+                                <li><a class="dropdown-item" href="javascript:;">Expertise</a></li>
+                                <li><a class="dropdown-item" href="javascript:;">Expertise</a></li>
+                                <li><a class="dropdown-item" href="javascript:;">Expertise</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdownWrapper">
+                        <p class="smw-btn-text smw-mb-8">Filter by author</p>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle smwdropdown d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="smwdropdown__text">Show all </span>
+                                <i class="smw-icon-down-arrow"></i>
+                            </button>
+                            <ul class="dropdown-menu smwdropdown__options">
+                                <li><a class="dropdown-item" href="javascript:;">Show all</a></li>
+                                <li><a class="dropdown-item" href="javascript:;">Author name</a></li>
+                                <li><a class="dropdown-item" href="javascript:;">Author name</a></li>
+                                <li><a class="dropdown-item" href="javascript:;">Author name</a></li>
+                                <li><a class="dropdown-item" href="javascript:;">Author name</a></li>
+                                <li><a class="dropdown-item" href="javascript:;">Author name</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  <!-- Filter -->
+    <div class="caseCardSection">
+        <div class="container-fluid container-lg smw-container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-0 smw-row justify-content-between">
+                @foreach (var notable in NotableCaseCollection)
+                {
+                    <div class="col">
+                        <a href="notable-case-article.html" class="casesCard d-flex gap-16 flex-column">
+                            <div class="casesCard__imgWrap">
+                                <img src="~/images/author-img.png" class="rounded-circle" alt="author name" width="52" height="52">
+                            </div>
+                            <p class="p__xsmall d-flex gap-8 align-items-center">
+                                <span class="smw-icon-calendar"></span>
+                                <span class="">Date Posted</span>
+                            </p>
+                            <div>
+                                <h2 class="casesCard__title">
+                                    @notable.NotableCaseTitle
+                                </h2>
+                                <p class="p__small">
+                                   @notable.NotableCaseDescription
+                                </p>
+                            </div>
+                            <p class="link__insight">
+                                <span class="smw-btn-text">Read More</span><span class="smw-icon-right-arrow"></span>
+                            </p>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div> <!-- card Card -->
+    <div class="container-fluid container-lg smw-container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="smw-pagination d-flex justify-content-between">
+                    <div class="smw-pagination__left">
+                        <button class="smw-pagination-btn">
+                            <span class="smw-icon-button-left"></span>
+                        </button>
+                        <span class="p__xsmall d-none d-md-block">Previous</span>
+                    </div>
+                    <div class="smw-pagination__middle d-flex gap-8 align-items-center justify-content-center">
+                        <span class="smw-btn-text active">1</span>
+                        <span class="smw-btn-text">2</span>
+                        <span class="smw-btn-text">3</span>
+                    </div>
+                    <div class="smw-pagination__right">
+                        <span class="p__xsmall d-none d-md-block">Next</span>
+                        <button class="smw-pagination-btn">
+                            <span class="smw-icon-button-right"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Pagination Section -->
+</main> <!-- main -->
