@@ -1,0 +1,16 @@
+﻿{
+  "dashboards": [
+    {
+      "alias": "cookietractor",
+      "view": "/App_Plugins/CookieTractor.Umbraco/cookietractor.dashboard.html",
+      "sections": [ "content" ],
+      "weight": 10
+    }
+  ],
+  "javascript": [
+    "/App_Plugins/CookieTractor.Umbraco/cookietractor.dashboard.controller.js"
+  ],
+  "css": [
+    "/App_Plugins/CookieTractor.Umbraco/cookietractor.css"
+  ]
+}
