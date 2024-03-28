@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -10,8 +10,8 @@
     <PackageReference Include="CookieTractor.Umbraco" Version="10.0.0" />
     <PackageReference Include="Smidge" Version="4.3.0" />
     <PackageReference Include="Smidge.Nuglify" Version="4.3.0" />
-    <PackageReference Include="TinyMCE" Version="6.8.2" />
-    <PackageReference Include="Umbraco.Cms" Version="10.8.3" />
+    <PackageReference Include="TinyMCE" Version="7.0.0" />
+    <PackageReference Include="Umbraco.Cms" Version="13.2.2" />
   </ItemGroup>
 
    <ItemGroup>

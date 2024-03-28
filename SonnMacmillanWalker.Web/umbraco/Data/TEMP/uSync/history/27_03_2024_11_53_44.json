@@ -1,0 +1,3674 @@
+{
+  "actions": [
+    {
+      "handlerAlias": "LanguageHandler",
+      "success": true,
+      "itemType": "ILanguage",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "en-us",
+      "name": "English (United States)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000409-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "ApprovedColor",
+      "name": "Approved Color",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "0225af17-b302-49cb-9176-b9f35cab9c17"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "CardSectionBlockElementCardSectionImageAlignmentRightToggle",
+      "name": "Card Section Block Element - Card Section Image Alignment Right - Toggle",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "48a105cb-5fe6-4016-923e-bde06ab1e0ec"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "CheckboxList",
+      "name": "Checkbox list",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "fbaf13a8-4036-41f2-93a3-974f678c312a"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "ContentPicker",
+      "name": "Content Picker",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "fd1e0da5-5606-4862-b679-5d0cf3a52a59"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "DatePicker",
+      "name": "Date Picker",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "5046194e-4237-453c-a547-15db3a07c4e1"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "DatePickerWithTime",
+      "name": "Date Picker with time",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "e4d66c0f-b935-4200-81f0-025f7256b89a"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "Dropdown",
+      "name": "Dropdown",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "0b6a45e7-44ba-430d-9da5-4e46060b9e03"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "DropdownMultiple",
+      "name": "Dropdown multiple",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "f38f0ac7-1d27-439c-9f3f-089cd8825a53"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "FooterMultinodeTreepicker",
+      "name": "Footer - Multinode Treepicker",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "1304b992-4255-43a9-baa6-0cf069f9821e"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "ImageCropper",
+      "name": "Image Cropper",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "1df9f033-e6d4-451f-b8d2-e0cbc50a836f"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "ImageMediaPicker",
+      "name": "Image Media Picker",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "ad9f0cf2-bda2-45d5-9ea1-a63cfc873fd3"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "InsightsViewAllInsightsCTAUrlMultinodeTreepicker",
+      "name": "Insights - View All Insights CTA Url - Multinode Treepicker",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "16eb030a-39ee-4078-bb3c-5a7dc3eb536f"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "LabelBigint",
+      "name": "Label (bigint)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "930861bf-e262-4ead-a704-f99453565708"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "LabelDatetime",
+      "name": "Label (datetime)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "0e9794eb-f9b5-4f20-a788-93acd233a7e4"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "LabelDecimal",
+      "name": "Label (decimal)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "8f1ef1e1-9de4-40d3-a072-6673f631ca64"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "LabelInteger",
+      "name": "Label (integer)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "8e7f995c-bd81-4627-9932-c40e568ec788"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "LabelString",
+      "name": "Label (string)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "f0bc4bfb-b499-40d6-ba86-058885a5178c"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "LabelTime",
+      "name": "Label (time)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "a97cec69-9b71-4c30-8b12-ec398860d7e8"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "ListViewContent",
+      "name": "List View - Content",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "c0808dd3-8133-4e4b-8ce8-e2bea84a96a4"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "ListViewMedia",
+      "name": "List View - Media",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "3a0156c4-3b8c-4803-bdc1-6871faa83fff"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "ListViewMembers",
+      "name": "List View - Members",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "aa2c52a0-ce87-4e65-a47c-7df09358585d"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "MainNavigationMultinodeTreepicker",
+      "name": "Main Navigation - Multinode Treepicker",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "80e9f51f-8ea2-4475-9396-6ada8a357f00"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "MediaPicker",
+      "name": "Media Picker",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "4309a3ea-0d78-4329-a06c-c80b036af19a"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "MediaPickerLegacy",
+      "name": "Media Picker (legacy)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "135d60e0-64d9-49ed-ab08-893c9ba44ae5"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "MemberPicker",
+      "name": "Member Picker",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "1ea2e01f-ebd8-4ce1-8d71-6b1149e63548"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "MultipleImageMediaPicker",
+      "name": "Multiple Image Media Picker",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "0e63d883-b62b-4799-88c3-157f82e83ecc"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "MultipleMediaPicker",
+      "name": "Multiple Media Picker",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "1b661f40-2242-4b44-b9cb-3990ee2b13c0"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "MultipleMediaPickerLegacy",
+      "name": "Multiple Media Picker (legacy)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "9dbbcbbb-2327-434a-b355-af1b84e5010a"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "MultiURLPicker",
+      "name": "Multi URL Picker",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "b4e3535a-1753-47e2-8568-602cf8cfee6f"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "NotableCasesBlockElementSelectAnAreaCTAUrlMultinodeTreepicker",
+      "name": "Notable Cases Block Element - Select an Area CTA Url - Multinode Treepicker",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "f8c30e2a-2180-4d05-9814-b48e8fd53ff2"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "NotableCasesBlockElementViewAllNotableCTAUrlMultinodeTreepicker",
+      "name": "Notable Cases Block Element - View All Notable CTA Url - Multinode Treepicker",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "68ff524d-3e91-4f44-ba1b-a10b9e69bec3"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "Numeric",
+      "name": "Numeric",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "2e6d3631-066e-44b8-aec4-96f09099b2b5"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "Radiobox",
+      "name": "Radiobox",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "bb5f57c9-ce2b-4bb9-b697-4caca783a805"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "RichtextEditor",
+      "name": "Richtext editor",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "ca90c950-0aff-4e72-b976-a30b1ac57dad"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "Tags",
+      "name": "Tags",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "b6b73142-b9c1-4bf8-a16d-e1c23320b549"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "TestimonialTestimonialsNestedContent",
+      "name": "Testimonial - Testimonials - Nested Content",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "8c98be71-8bef-446b-b544-aa2035c8e4c4"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "Textarea",
+      "name": "Textarea",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "Textstring",
+      "name": "Textstring",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "0cc0eba1-9960-42c9-bf9b-60e150b429ae"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "Truefalse",
+      "name": "True/false",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "92897bc6-a5f3-4ffe-ae27-f2e7e33dda49"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "UploadArticle",
+      "name": "Upload Article",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "bc1e266c-dac4-4164-bf08-8a1ec6a7143d"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "UploadAudio",
+      "name": "Upload Audio",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "8f430dd6-4e96-447e-9dc0-cb552c8cd1f3"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "UploadFile",
+      "name": "Upload File",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "84c6b441-31df-4ffe-b67e-67d5bc3ae65a"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "UploadVectorGraphics",
+      "name": "Upload Vector Graphics",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "215cb418-2153-4429-9aef-8c0f0041191b"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "UploadVideo",
+      "name": "Upload Video",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "70575fe7-9812-4396-bbe1-c81a76db71b5"
+    },
+    {
+      "handlerAlias": "DataTypeHandler",
+      "success": true,
+      "itemType": "IDataType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "SectionBlockList",
+      "name": "Section Block List",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "48fb5a03-9e41-4ec0-9320-3f901a7e86a0"
+    },
+    {
+      "handlerAlias": "TemplateHandler",
+      "success": true,
+      "itemType": "ITemplate",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "master",
+      "name": "Master",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "f01b21a1-d2a8-4167-8339-3f5207d506b3"
+    },
+    {
+      "handlerAlias": "TemplateHandler",
+      "success": true,
+      "itemType": "ITemplate",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notablecase",
+      "name": "Notable Case",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "ed0e5ab4-3325-4dbf-9958-a6aa52f311de"
+    },
+    {
+      "handlerAlias": "TemplateHandler",
+      "success": true,
+      "itemType": "ITemplate",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "aboutus",
+      "name": "About Us",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "48f8cf16-425d-408a-b88f-9d70362a10cc"
+    },
+    {
+      "handlerAlias": "TemplateHandler",
+      "success": true,
+      "itemType": "ITemplate",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "home",
+      "name": "Home",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "7a3b1e5f-51b6-4797-90ae-e95a29bea390"
+    },
+    {
+      "handlerAlias": "TemplateHandler",
+      "success": true,
+      "itemType": "ITemplate",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notablecases",
+      "name": "Notable Cases",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "eaa7fcd8-b84b-45bc-b9da-349e432d79ea"
+    },
+    {
+      "handlerAlias": "TemplateHandler",
+      "success": true,
+      "itemType": "ITemplate",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "ourpeople",
+      "name": "Our People",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "884c9184-86b4-498e-a120-8042d0faca31"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "aboutus",
+      "name": "About Us",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "aboutUsBlockList/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "aboutUsBlockList/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "aboutUsBlockList/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "aboutUsBlockList/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "aboutUsDescription/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "aboutUsDescription/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "aboutUsDescription/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "aboutUsDescription/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "aboutUsTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "aboutUsTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "aboutUsTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "aboutUsTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "089adb9a-777a-4fcf-a456-4137c94cf422"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "home",
+      "name": "Home",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "footer/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "footer/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "footer/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "footer/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "heroMastheadDescription/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "heroMastheadDescription/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "heroMastheadDescription/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "heroMastheadDescription/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "heroMastheadHeading/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "heroMastheadHeading/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "heroMastheadHeading/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "heroMastheadHeading/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "homeSectionList/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "homeSectionList/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "homeSectionList/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "homeSectionList/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "mainNavigation/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "mainNavigation/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "mainNavigation/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "mainNavigation/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "3da6487b-a00b-4e7e-99a2-fd2e875c0a08"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "ourpeople",
+      "name": "Our People",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "ourPeopleBlockList/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "ourPeopleBlockList/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "ourPeopleBlockList/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "ourPeopleBlockList/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "ourPeopleDescription/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "ourPeopleDescription/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "ourPeopleDescription/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "ourPeopleDescription/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "ourPeopleTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "ourPeopleTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "ourPeopleTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "ourPeopleTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "ad21a493-9686-45a7-a795-605679046144"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "aboutusblockelement",
+      "name": "About Us Block Element",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "aboutUsBlockElementDescription/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "aboutUsBlockElementDescription/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "aboutUsBlockElementDescription/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "aboutUsBlockElementDescription/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "aboutUsBlockElementTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "aboutUsBlockElementTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "aboutUsBlockElementTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "aboutUsBlockElementTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "c2354dce-b4e6-4faf-b172-392304f62ec6"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "arresthelplineblockelement",
+      "name": "Arrest Helpline Block Element",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "arrestHelplineDescription/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "arrestHelplineDescription/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "arrestHelplineDescription/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "arrestHelplineDescription/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "arrestHelplineNumber/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "arrestHelplineNumber/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "arrestHelplineNumber/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "arrestHelplineNumber/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "arrestHelplineTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "arrestHelplineTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "arrestHelplineTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "arrestHelplineTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "4d363cff-464c-4f97-868d-50f48c5efa70"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "cardsectionblockelement",
+      "name": "Card Section Block Element",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "cardSectionDescription/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "cardSectionDescription/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "cardSectionDescription/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "cardSectionDescription/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "cardSectionImageAlignment/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "cardSectionImageAlignment/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "cardSectionImageAlignment/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "cardSectionImageAlignment/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "cardSectionTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "cardSectionTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "cardSectionTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "cardSectionTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "e309edc0-8343-4312-8f92-03ea13bf044a"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "footer",
+      "name": "Footer",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "footerLogo/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "footerLogo/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "footerLogo/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "footerLogo/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "e1f804c3-e73d-4096-89ef-7babc310255e"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "insightsblockelement",
+      "name": "Insights Block Element",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "insightsBlockElementDescription/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "insightsBlockElementDescription/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "insightsBlockElementDescription/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "insightsBlockElementDescription/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "insightsBlockElementTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "insightsBlockElementTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "insightsBlockElementTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "insightsBlockElementTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "viewAllInsightsCTATitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "viewAllInsightsCTATitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "viewAllInsightsCTATitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "viewAllInsightsCTATitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "viewAllInsightsCTAUrl/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "viewAllInsightsCTAUrl/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "viewAllInsightsCTAUrl/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "viewAllInsightsCTAUrl/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "a757f33c-b215-4faf-8520-e53ac09963af"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "meetourteamblockelement",
+      "name": "Meet Our Team Block Element",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "meetOurTeamDescription/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "meetOurTeamDescription/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "meetOurTeamDescription/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "meetOurTeamDescription/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "meetOurTeamTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "meetOurTeamTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "meetOurTeamTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "meetOurTeamTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "2858cd4e-337d-4da6-8048-33d0f90f8953"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "navigation",
+      "name": "Navigation",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "contactEmail/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "contactEmail/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "contactEmail/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "contactEmail/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "mainLogo/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "mainLogo/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "mainLogo/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "mainLogo/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "4f80e679-72d7-4aaa-b80e-afab6049f6e0"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notablecasesblockelement",
+      "name": "Notable Cases Block Element",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "notableCasesTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "notableCasesTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "notableCasesTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "notableCasesTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "selectAnAreaCTATitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "selectAnAreaCTATitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "selectAnAreaCTATitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "selectAnAreaCTATitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "selectAnAreaCTAUrl/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "selectAnAreaCTAUrl/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "selectAnAreaCTAUrl/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "selectAnAreaCTAUrl/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "viewAllNotableCTATitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "viewAllNotableCTATitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "viewAllNotableCTATitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "viewAllNotableCTATitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "viewAllNotableCTAUrl/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "viewAllNotableCTAUrl/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "viewAllNotableCTAUrl/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "viewAllNotableCTAUrl/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "508659ef-9e0d-4676-bd1a-8a200dba0b9f"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "ourparalegalteamblockelement",
+      "name": "Our Paralegal Team Block Element",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "ourParalegalTeamDescription/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "ourParalegalTeamDescription/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "ourParalegalTeamDescription/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "ourParalegalTeamDescription/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "ourParalegalTeamTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "ourParalegalTeamTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "ourParalegalTeamTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "ourParalegalTeamTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "40f7ca1b-3226-4413-b376-6edd712347cf"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "ourpeopleblockelement",
+      "name": "Our People Block Element",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "21bbd918-caad-449c-b6fd-f49efcda96bf"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "requestacallblockelement",
+      "name": "Request a Call Block Element",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "requestACallDescription/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "requestACallDescription/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "requestACallDescription/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "requestACallDescription/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "requestACallTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "requestACallTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "requestACallTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "requestACallTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "fd73b753-449f-49e7-b3f8-7e84f91a40e1"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "settings",
+      "name": "Settings",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "b9106dda-f646-4c8d-becd-7ce240a56f1d"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "testimonialsblockelement",
+      "name": "Testimonials Block Element",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "5b95e5c5-589f-4ae7-a9de-75e50d39fdb8"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notablecase",
+      "name": "Notable Case",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "notableCaseDescription/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "notableCaseDescription/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "notableCaseDescription/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "notableCaseDescription/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "notableCaseTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "notableCaseTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "notableCaseTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "notableCaseTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "fd86c266-1b5b-4e51-a7ed-66c110168e4a"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notablecases",
+      "name": "Notable Cases",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Description",
+          "path": "notableCasesCardDescription/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "notableCasesCardDescription/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "notableCasesCardDescription/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "notableCasesCardDescription/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "notableCasesCardTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "notableCasesCardTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "notableCasesCardTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "notableCasesCardTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "notableCasesTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "notableCasesTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "notableCasesTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "notableCasesTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "57ecb9d8-814d-4ef3-ae21-e3ab441f7af2"
+    },
+    {
+      "handlerAlias": "MediaTypeHandler",
+      "success": true,
+      "itemType": "IMediaType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "file",
+      "name": "File",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoBytes/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoBytes/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoBytes/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "umbracoExtension/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoExtension/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoExtension/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoExtension/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "umbracoFile/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoFile/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoFile/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoFile/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "4c52d8ab-54e6-40cd-999c-7a5f24903e4d"
+    },
+    {
+      "handlerAlias": "MediaTypeHandler",
+      "success": true,
+      "itemType": "IMediaType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "folder",
+      "name": "Folder",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "f38bd2d7-65d0-48e6-95dc-87ce06ec2d3d"
+    },
+    {
+      "handlerAlias": "MediaTypeHandler",
+      "success": true,
+      "itemType": "IMediaType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "image",
+      "name": "Image",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoBytes/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoBytes/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoBytes/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "umbracoExtension/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoExtension/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoExtension/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoExtension/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "umbracoFile/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoFile/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoFile/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoFile/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoHeight/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoHeight/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoHeight/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoWidth/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoWidth/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoWidth/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "cc07b313-0843-4aa8-bbda-871c8da728c8"
+    },
+    {
+      "handlerAlias": "MediaTypeHandler",
+      "success": true,
+      "itemType": "IMediaType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "umbracomediaarticle",
+      "name": "Article",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoBytes/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoBytes/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoBytes/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "umbracoExtension/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoExtension/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoExtension/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoExtension/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "umbracoFile/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoFile/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoFile/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoFile/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "a43e3414-9599-4230-a7d3-943a21b20122"
+    },
+    {
+      "handlerAlias": "MediaTypeHandler",
+      "success": true,
+      "itemType": "IMediaType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "umbracomediaaudio",
+      "name": "Audio",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoBytes/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoBytes/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoBytes/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "umbracoExtension/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoExtension/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoExtension/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoExtension/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "umbracoFile/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoFile/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoFile/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoFile/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "a5ddeee0-8fd8-4cee-a658-6f1fcdb00de3"
+    },
+    {
+      "handlerAlias": "MediaTypeHandler",
+      "success": true,
+      "itemType": "IMediaType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "umbracomediavectorgraphics",
+      "name": "Vector Graphics (SVG)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoBytes/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoBytes/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoBytes/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "umbracoExtension/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoExtension/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoExtension/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoExtension/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "umbracoFile/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoFile/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoFile/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoFile/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "c4b1efcf-a9d5-41c4-9621-e9d273b52a9c"
+    },
+    {
+      "handlerAlias": "MediaTypeHandler",
+      "success": true,
+      "itemType": "IMediaType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "umbracomediavideo",
+      "name": "Video",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoBytes/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoBytes/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoBytes/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "umbracoExtension/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoExtension/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoExtension/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoExtension/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "umbracoFile/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoFile/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoFile/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoFile/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "f6c515bb-653c-4bdc-821c-987729ebe327"
+    },
+    {
+      "handlerAlias": "MemberTypeHandler",
+      "success": true,
+      "itemType": "IMemberType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "member",
+      "name": "Member",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "umbracoMemberComments/Key",
+          "oldValue": "0000001c-0000-0000-0000-000000000000",
+          "newValue": "2a280588-0000-0000-0000-000000000000",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "umbracoMemberComments/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "umbracoMemberComments/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "umbracoMemberComments/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "umbracoMemberComments/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "d59be02f-1df9-4228-aa1e-01917d806cda"
+    },
+    {
+      "handlerAlias": "MacroHandler",
+      "success": true,
+      "itemType": "IMacro",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "renderUmbracoForm",
+      "name": "Insert Form with Theme",
+      "path": "v9",
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "480075d7-3f9d-4190-9356-11978ddbb8cf"
+    },
+    {
+      "handlerAlias": "MediaHandler",
+      "success": true,
+      "itemType": "IMedia",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "main-logo",
+      "name": "Main Logo",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "2f64f4ec-6897-45d9-9012-fa83fad5e8ab"
+    },
+    {
+      "handlerAlias": "MediaHandler",
+      "success": true,
+      "itemType": "IMedia",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "about-us",
+      "name": "About Us",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "b77b102a-5c03-43ca-bbac-5013320dae98"
+    },
+    {
+      "handlerAlias": "MediaHandler",
+      "success": true,
+      "itemType": "IMedia",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "insights",
+      "name": "Insights",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "1f7b090c-9ed0-434e-8ab5-206f05409539"
+    },
+    {
+      "handlerAlias": "MediaHandler",
+      "success": true,
+      "itemType": "IMedia",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "homepage",
+      "name": "Homepage",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "32dcd25b-70e7-4769-aca2-3b1b8227070d"
+    },
+    {
+      "handlerAlias": "MediaHandler",
+      "success": true,
+      "itemType": "IMedia",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "card-sections",
+      "name": "Card Sections",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "0a289fdf-77ca-4d83-8cf4-104b291fb4ab"
+    },
+    {
+      "handlerAlias": "MediaHandler",
+      "success": true,
+      "itemType": "IMedia",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "smw-logo",
+      "name": "Smw Logo",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "da487393-4b26-4510-bd20-5b8a217f1f0b"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "home",
+      "name": "Home",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/18/2024 2:22:18 PM",
+          "newValue": "1/18/2024 2:22:18 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "9014d501-fbf7-4bef-bd32-7ca5a028f29f"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "settings",
+      "name": "Settings",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/20/2024 12:11:37 PM",
+          "newValue": "3/20/2024 12:11:37 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "84348c2a-a8ee-47b0-bbda-748ee4dfae25"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "about-us",
+      "name": "About us",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/19/2024 12:23:41 PM",
+          "newValue": "3/19/2024 12:23:41 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "aboutUsBlockList",
+          "path": "Property/aboutUsBlockList",
+          "oldValue": "\"{\\\"layout\\\":{\\\"Umbraco.BlockList\\\":[{\\\"contentUdi\\\":\\\"umb://element/aa0ed43a764247038516d4fe9213ccf1\\\"},{\\\"contentUdi\\\":\\\"umb://element/e744853507c2441f937af06d90e4c7fb\\\"},{\\\"contentUdi\\\":\\\"umb://element/c87c213b26c7462e9b667b2e6449b3b0\\\"},{\\\"contentUdi\\\":\\\"umb://element/0a97e5a3ffd9418f880a249d3675c961\\\"},{\\\"contentUdi\\\":\\\"umb://element/b2b028adb4b64c41b7be716093dac1ba\\\"}]},\\\"contentData\\\":[{\\\"contentTypeKey\\\":\\\"e309edc0-8343-4312-8f92-03ea13bf044a\\\",\\\"udi\\\":\\\"umb://element/aa0ed43a764247038516d4fe9213ccf1\\\",\\\"cardSectionTitle\\\":\\\"Reputation and commitment\\\",\\\"cardSectionDescription\\\":\\\"Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna vulputate pellentesque a diam tincidunt. Aenean malesuada tellus tellus faucibus mauris quisque mauris in.\\\",\\\"cardSectionImageAlignment\\\":1},{\\\"contentTypeKey\\\":\\\"5b95e5c5-589f-4ae7-a9de-75e50d39fdb8\\\",\\\"udi\\\":\\\"umb://element/e744853507c2441f937af06d90e4c7fb\\\"},{\\\"contentTypeKey\\\":\\\"e309edc0-8343-4312-8f92-03ea13bf044a\\\",\\\"udi\\\":\\\"umb://element/c87c213b26c7462e9b667b2e6449b3b0\\\",\\\"cardSectionTitle\\\":\\\"Honesty, efficiency and commitment\\\",\\\"cardSectionDescription\\\":\\\"Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna vulputate pellentesque a diam tincidunt. Aenean malesuada tellus tellus faucibus mauris quisque mauris in.\\\",\\\"cardSectionImageAlignment\\\":0},{\\\"contentTypeKey\\\":\\\"2858cd4e-337d-4da6-8048-33d0f90f8953\\\",\\\"udi\\\":\\\"umb://element/0a97e5a3ffd9418f880a249d3675c961\\\",\\\"meetOurTeamTitle\\\":\\\"Meet our team\\\",\\\"meetOurTeamDescription\\\":\\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum a nibh eget tincidunt. Etiam dignissim, dui sed bibendum facilisis, augue turpis elementum velit.\\\"},{\\\"contentTypeKey\\\":\\\"fd73b753-449f-49e7-b3f8-7e84f91a40e1\\\",\\\"udi\\\":\\\"umb://element/b2b028adb4b64c41b7be716093dac1ba\\\",\\\"requestACallTitle\\\":\\\"Request a call\\\",\\\"requestACallDescription\\\":\\\"Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna vulputate pellentesque a diam tincidunt. Aenean malesuada tellus tellus faucibus mauris quisque mauris in\\\"}],\\\"settingsData\\\":[]}\"",
+          "newValue": "\"{\\\"layout\\\":{\\\"Umbraco.BlockList\\\":[{\\\"contentUdi\\\":\\\"umb://element/aa0ed43a764247038516d4fe9213ccf1\\\"},{\\\"contentUdi\\\":\\\"umb://element/e744853507c2441f937af06d90e4c7fb\\\"},{\\\"contentUdi\\\":\\\"umb://element/c87c213b26c7462e9b667b2e6449b3b0\\\"},{\\\"contentUdi\\\":\\\"umb://element/0a97e5a3ffd9418f880a249d3675c961\\\"},{\\\"contentUdi\\\":\\\"umb://element/b2b028adb4b64c41b7be716093dac1ba\\\"}]},\\\"contentData\\\":[{\\\"contentTypeKey\\\":\\\"e309edc0-8343-4312-8f92-03ea13bf044a\\\",\\\"udi\\\":\\\"umb://element/aa0ed43a764247038516d4fe9213ccf1\\\",\\\"cardSectionTitle\\\":\\\"Reputation and commitment\\\",\\\"cardSectionDescription\\\":\\\"Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna vulputate pellentesque a diam tincidunt. Aenean malesuada tellus tellus faucibus mauris quisque mauris in.\\\",\\\"cardSectionImageAlignment\\\":\\\"1\\\"},{\\\"contentTypeKey\\\":\\\"5b95e5c5-589f-4ae7-a9de-75e50d39fdb8\\\",\\\"udi\\\":\\\"umb://element/e744853507c2441f937af06d90e4c7fb\\\"},{\\\"contentTypeKey\\\":\\\"e309edc0-8343-4312-8f92-03ea13bf044a\\\",\\\"udi\\\":\\\"umb://element/c87c213b26c7462e9b667b2e6449b3b0\\\",\\\"cardSectionTitle\\\":\\\"Honesty, efficiency and commitment\\\",\\\"cardSectionDescription\\\":\\\"Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna vulputate pellentesque a diam tincidunt. Aenean malesuada tellus tellus faucibus mauris quisque mauris in.\\\",\\\"cardSectionImageAlignment\\\":\\\"0\\\"},{\\\"contentTypeKey\\\":\\\"2858cd4e-337d-4da6-8048-33d0f90f8953\\\",\\\"udi\\\":\\\"umb://element/0a97e5a3ffd9418f880a249d3675c961\\\",\\\"meetOurTeamTitle\\\":\\\"Meet our team\\\",\\\"meetOurTeamDescription\\\":\\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum a nibh eget tincidunt. Etiam dignissim, dui sed bibendum facilisis, augue turpis elementum velit.\\\"},{\\\"contentTypeKey\\\":\\\"fd73b753-449f-49e7-b3f8-7e84f91a40e1\\\",\\\"udi\\\":\\\"umb://element/b2b028adb4b64c41b7be716093dac1ba\\\",\\\"requestACallTitle\\\":\\\"Request a call\\\",\\\"requestACallDescription\\\":\\\"Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna vulputate pellentesque a diam tincidunt. Aenean malesuada tellus tellus faucibus mauris quisque mauris in\\\"}],\\\"settingsData\\\":[]}\"",
+          "change": "Update"
+        }
+      ],
+      "key": "bed87ca5-2bd3-4c2f-ac41-fd55b67cdf97"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "navigation",
+      "name": "Navigation",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/20/2024 12:11:54 PM",
+          "newValue": "3/20/2024 12:11:54 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "8515c961-c07b-4ace-854a-3d9527d14674"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "footer",
+      "name": "Footer",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/20/2024 12:23:11 PM",
+          "newValue": "3/20/2024 12:23:11 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "8f4a26ba-9af3-42ee-a237-e87dec3a425e"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "our-people",
+      "name": "Our People",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/20/2024 12:03:09 PM",
+          "newValue": "3/20/2024 12:03:09 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "dc4e2f2a-739e-403d-8418-d3f831f26ee9"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notable-cases",
+      "name": "Notable Cases",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/21/2024 11:49:39 AM",
+          "newValue": "3/21/2024 11:49:39 AM",
+          "change": "Update"
+        }
+      ],
+      "key": "2ca41bc4-63f9-426d-b2b1-d9e0866ba9fd"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notable-case-two",
+      "name": "Notable Case Two",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/21/2024 4:53:03 PM",
+          "newValue": "3/21/2024 4:53:03 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "14ad3a29-3679-48ff-b3a4-b9981e37d033"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notable-case-one",
+      "name": "Notable Case One",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/21/2024 4:53:24 PM",
+          "newValue": "3/21/2024 4:53:24 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "220b28b4-c243-4882-8bc5-8de91c029377"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notable-case-three",
+      "name": "Notable Case Three",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "fd3867cb-0f50-4092-9b29-7bbc981685b1"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notable-case-four",
+      "name": "Notable Case Four",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/21/2024 4:54:46 PM",
+          "newValue": "3/21/2024 4:54:46 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "3dd3dfd5-f2d7-4d75-a367-e09b24d808b6"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notable-case-five",
+      "name": "Notable Case Five",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/21/2024 4:55:00 PM",
+          "newValue": "3/21/2024 4:55:00 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "a64d7352-c6e6-4623-a28f-f92b8d910d6e"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notable-case-six",
+      "name": "Notable Case Six",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/21/2024 4:55:24 PM",
+          "newValue": "3/21/2024 4:55:24 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "369b3fd6-5d03-4ed6-bc33-80c2fe2334f5"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notable-case-seven",
+      "name": "Notable Case Seven",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/21/2024 4:55:46 PM",
+          "newValue": "3/21/2024 4:55:46 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "77823e36-31f5-44bb-b40f-891b06ce4954"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notable-case-eight",
+      "name": "Notable Case Eight",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/21/2024 4:56:11 PM",
+          "newValue": "3/21/2024 4:56:11 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "260aff6c-86fd-4f44-a3fe-02038428dcb8"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notable-case-nine",
+      "name": "Notable Case Nine",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/21/2024 4:56:39 PM",
+          "newValue": "3/21/2024 4:56:39 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "436e092e-bf7e-414c-b348-8fd1698f3f24"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "notable-case-ten",
+      "name": "Notable Case Ten",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "3/21/2024 4:57:15 PM",
+          "newValue": "3/21/2024 4:57:15 PM",
+          "change": "Update"
+        }
+      ],
+      "key": "043f90b0-8e8f-4d80-9e1f-6766f1743b7d"
+    }
+  ],
+  "date": "2024-03-27T11:53:44.3588439+05:30",
+  "username": "smw@criminalsolicitor.co.uk",
+  "method": "Import",
+  "filePath": null,
+  "changes": 102,
+  "total": 112
+}
